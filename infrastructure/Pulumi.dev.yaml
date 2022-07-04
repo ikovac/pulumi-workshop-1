@@ -1,0 +1,6 @@
+config:
+  aws:region: us-east-1
+  db:name: pulumi_workshop
+  db:password:
+    secure: AAABAALWrXSG3R/4w9Xoaqkd4Vv7lYgeIJAbbEP2N2h0O/f8A2kVvA==
+  db:user: ikovac
