@@ -83,11 +83,6 @@ const addServerUrlEnv = new command.local.Command('add-server-url-env', {
   dir: '../app/frontend'
 });
 
-// const addServerUrlEnv = new command.local.Command('add-server-url-env', {
-//   create: 'echo VITE_SERVER_URL=http://localhost:3000 > .env',
-//   dir: '../app/frontend'
-// });
-
 const buildClient = new command.local.Command('build-frontend', {
   create: 'npm run build',
   dir: '../app/frontend'
